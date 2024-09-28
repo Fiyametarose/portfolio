@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #5a67d8;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #5a67d8;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #4c51bf;
+        }
+
+        #message {
+            margin-top: 20px;
+            color: #e53e3e;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to My Simple Webpage</h1>
+    <p>This is a paragraph of text on my webpage.</p>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
